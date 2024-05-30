@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='グラフィックデザイナー Ruprous ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='Ruprousのポートフォリオサイトです'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="Ruprousのポートフォリオサイトです" />
+  <title>Ruprous Portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="../css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="../css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="../css/iframe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="../css/modal_style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="../img/favicon.ico" />
+  <style>
+    /* テキストの色をwhiteに変更 */
+    .white-text {
+        color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href="../index.html"><p class="white-text">Ruprous</p></a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="../index.html#works">WORKS</a></li>
+            <li class="gnav-item"><a href="../index.html#skill">SOCIALMEDIA</a></li>
+            <li class="gnav-item"><a href="../index.html#about">ABOUT</a></li>
+            <li class="gnav-item"><a href="../index.html#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <article class="article">
+        <div class="article-container">
+          <h2 class="article-title">宮城玲 × RE:vius<br>コラボTシャツ・ロンT告知画像</h2>
+          <div class="article-body">
+              <p>
+                <img src="../img/works-miyagi-revius/works-miyagi-revius-01.png" alt="" onclick="openModal('modal1')">
+                <div id="modal1" class="modal" onclick="closeModal('modal1')">
+                  <img src="../img/works-miyagi-revius/works-miyagi-revius-01.png" alt="画像" class="modal-content">
+                </div>
+              </p>
+            <h3>宮城玲</h3>
+            <p><a href="https://www.youtube.com/channel/UC2W50vDq3YOPbHZeoX8MxjA" target="_blank" rel="noopener">YouTube</a></p>
+            <p><a href="https://x.com/miyatanu2020" target="_blank" rel="noopener">X/Twitter</a></p>
+            <h3>RE:vius</h3>
+            <p><a href="https://revius.stores.jp/" target="_blank" rel="noopener">Store</a></p>
+            <p><a href="https://stores.jp/search?q=%E5%AE%AE%E5%9F%8E%E7%8E%B2&store=revius" target="_blank" rel="noopener">商品ページ</a></p>
+            <h3>担当</h3>
+            <p>告知・広告画像</p>
+            <h3>概要</h3>
+            <p>2024/02/16 〜 03/01の期間限定で発売した、"宮城玲 × RE:vius コラボTシャツ・ロンT"の告知画像を制作しました。</p>
+          </div>
+          <div class="home-link">
+            <a href="../index.html#works">Works一覧へ</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;Ruprous 2024</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="../js/script.js"></script>
+  <script src="../js/modal.js"></script>
+</body>
+</html>

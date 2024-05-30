@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* モーダルのスタイル */
+.modal {
+    display: none; /* 最初は非表示 */
+    position: fixed; /* 画面の固定位置に配置 */
+    z-index: 1; /* 他の要素より上に表示 */
+    left: 0;
+    top: 0;
+    width: 100%; /* 画面の幅いっぱいに広がる */
+    height: 100%; /* 画面の高さいっぱいに広がる */
+    overflow: auto; /* スクロールバーが表示される場合にスクロール可能にする */
+    background-color: rgba(0, 0, 0, 0); /* 背景を完全に透明にする */
+    transition: background-color 0.3s ease; /* 背景色の変化をフェードさせる */
+}
+
+/* モーダルの中の画像のスタイル */
+.modal-content {
+    display: block;
+    margin: auto; /* 水平方向に中央に配置 */
+    max-width: 80%; /* 画像の最大幅 */
+    max-height: 80%; /* 画像の最大高さ */
+    position: fixed; /* 画面の固定位置に配置 */
+    top: 50%; /* 画面の中央に */
+    left: 50%; /* 画面の中央に */
+    transform: translate(-50%, -50%); /* 中央に移動 */
+    opacity: 0; /* 最初は非表示 */
+    transition: opacity 0.3s ease; /* 不透明度の変化をフェードさせる */
+}
